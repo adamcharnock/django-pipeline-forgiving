@@ -16,11 +16,11 @@ setup(
     # Any executable scripts, typically in 'bin'. E.g 'bin/do-something.py'
     scripts=[],
     # REQUIRED: Your project's URL
-    url='',
+    url='https://github.com/adamcharnock/django-pipeline-forgiving',
     # Put your license here. See LICENSE.txt for more information
-    license='',
+    license='MIT',
     # Put a nice one-liner description here
-    description='',
+    description='An extension of the django-pipeline storage backend which forgives missing files',
     long_description=open('README.rst').read() if exists("README.rst") else "",
     # Any requirements here, e.g. "Django >= 1.1.1"
     install_requires=[
